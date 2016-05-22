@@ -14,6 +14,7 @@
 		8784DFF61CF1DF7900974179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8784DFF41CF1DF7900974179 /* LaunchScreen.storyboard */; };
 		8784E0011CF1DF7900974179 /* MaterialDesignCircularProgressViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784E0001CF1DF7900974179 /* MaterialDesignCircularProgressViewTests.swift */; };
 		8784E00C1CF1DF7900974179 /* MaterialDesignCircularProgressViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784E00B1CF1DF7900974179 /* MaterialDesignCircularProgressViewUITests.swift */; };
+		8784E01D1CF1E18200974179 /* GMDCircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784E01C1CF1E18200974179 /* GMDCircularProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8784E0071CF1DF7900974179 /* MaterialDesignCircularProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialDesignCircularProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8784E00B1CF1DF7900974179 /* MaterialDesignCircularProgressViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialDesignCircularProgressViewUITests.swift; sourceTree = "<group>"; };
 		8784E00D1CF1DF7900974179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8784E01C1CF1E18200974179 /* GMDCircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMDCircularProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				8784E0191CF1DF8400974179 /* Application */,
 				8784E01A1CF1DFBB00974179 /* Controllers */,
+				8784E01B1CF1E15200974179 /* Views */,
 			);
 			path = MaterialDesignCircularProgressView;
 			sourceTree = "<group>";
@@ -139,6 +142,14 @@
 				8784DFED1CF1DF7900974179 /* ViewController.swift */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8784E01B1CF1E15200974179 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8784E01C1CF1E18200974179 /* GMDCircularProgressView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8784DFEE1CF1DF7900974179 /* ViewController.swift in Sources */,
+				8784E01D1CF1E18200974179 /* GMDCircularProgressView.swift in Sources */,
 				8784DFEC1CF1DF7900974179 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
